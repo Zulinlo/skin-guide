@@ -1,3 +1,10 @@
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom';
+
 import './App.css';
 import Home from './components/Home';
 
@@ -7,9 +14,17 @@ const App = () => {
 
 
     return (
-        <div className="App">
-            <Home />
-        </div>
+        <Router> 
+            {/* Switch looks through paths to match what should be displayed */}
+            <Switch>
+                <Route path='/t'>
+                    <h1>d</h1>
+                </Route>
+                <Route path='/'>
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
     );
 }
 

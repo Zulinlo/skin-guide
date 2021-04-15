@@ -2,6 +2,8 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import Steps from '../Steps';
 
+import './styles.scss';
+
 const Home = () => {
 
     return (
