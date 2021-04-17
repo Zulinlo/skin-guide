@@ -9,7 +9,10 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <h1>Home</h1>
+            <div className='container--home'>
+                <h1>Home</h1>
+            </div>
+            <Footer />
         </>
     );
 }

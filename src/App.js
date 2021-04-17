@@ -5,8 +5,9 @@ import {
     Link
 } from 'react-router-dom';
 
-import './App.css';
 import Home from './components/Home';
+
+import './App.scss';
 
 const App = () => {
     // Possible Hyperlinks

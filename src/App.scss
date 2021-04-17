@@ -1,0 +1,10 @@
+@import './utilities/foundation.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vaerla Round', sans-serif;
+    font-size: 1rem;
+    color: $primaryColor;
+    background-color: $secondaryColor;
+}
