@@ -1,3 +1,7 @@
+import Home from './components/Home';
+import './App.scss';
+
+// Libraries
 import {
     BrowserRouter as Router,
     Switch,
@@ -5,14 +9,9 @@ import {
     Link
 } from 'react-router-dom';
 
-import Home from './components/Home';
-
-import './App.scss';
-
 const App = () => {
     // Possible Hyperlinks
     const webPages = ['cleanser', 'toner', 'exfoliant', 'essence', 'serum', 'sheet-mask', 'moisturiser', 'sunscreen', 'other'];
-
 
     return (
         <Router> 

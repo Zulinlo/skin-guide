@@ -6,11 +6,12 @@ const Navbar = () => {
             <div class='nav--container'>
                 <div class='content'>
                     Cleanser | Toner | Exfoliant | Essence | Serum | Sheet-mask | Moisturiser | Sunscreen | Other
+                    <input type="text" placeholder="search" />
                 </div>
             </div>
             <div class='nav--sticky'>
                 <div class='content'>
-                    <h1>Navbar</h1>
+                    <span class='heading'>Home</span>
                 </div>
             </div>
         </>
